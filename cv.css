@@ -60,7 +60,6 @@ button{
 }
 
 main{
-    background-color: rosybrown;
     display: flex;
     flex-direction: column;
     justify-content: center;
