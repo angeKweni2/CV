@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    color: rgb(236, 202, 189);
+    padding: 0px;
+    margin-left: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+
+
+.presentation img{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    width: 100%;
+}
+
+button{
+    border-radius: 10px;
+    border-color: transparent;
+    color: rgb(114, 35, 4);
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.fonctionnalite button img{
+    height: 15px;
+    width: 15px;
+    margin-left: 3px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+h1{
+    margin-left: 10px;
+    color: white;
+}
+
+h2{
+    color: brown;
+    font-weight: bold;
+    border-left: 5px solid brown;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.formation li{
+    margin: 5px;
+    padding: 5px;
+}
+
+.info img{
+    height: 20px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+p{
+    margin: 5px;
+}
+
+ul{
+    padding: 5px;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.langue img{
+    height: 10px;
+    margin: 0;
+
+}
+
+@media (min-width:600px){
+    .photo{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    nav{
+        justify-content: space-around;
+        width: 30%;
+    }
+
+    .presentation{
+        flex-direction: row;
+    }
+
+    .presentation img{
+        width: 15%;
+        padding-left: 0px;
+        margin: 0;
+    }
+
+    main{
+        flex-direction: row;
+        margin: 0 70px 0 70px;
+    }
+
+    section{
+        width: 50%;
+    }
+
+}
+
+@media (min-width:1000px){
+
+    .presentation img{
+        width: 10%;
+        padding-left: 0px;
+        margin: 0;
+    }
+
+
+    main{
+        flex-direction: row;
+        margin: 0 170px 0 170px;
+    }
+   
+} 
+
+
+@media (prefers-color-scheme: dark){
+ 
+}
+
+
+
