@@ -205,18 +205,9 @@ body.dark-mode li {
         margin: 0;
     }
 
-
     main{
         flex-direction: row;
         margin: 0 170px 0 170px;
     }
-   
 } 
-
-
-@media (prefers-color-scheme: dark){
- 
-}
-
-
 

@@ -10,7 +10,11 @@ printBtn.click(function() {
     window.print();
 });
 
-//3- fonctionnalité de 
+//3- fonctionnalité de l'effet parallaxe sur la photo de profil et l'entete
+$(window).scroll(function() {
+    let scrollPosition = $(this).scrollTop();
+    $('.presentation img').css('transform', 'translateY(' + scrollPosition * 0.3 + 'px)');
+});
 
 
 
